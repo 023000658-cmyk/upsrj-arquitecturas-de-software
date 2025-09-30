@@ -28,7 +28,7 @@ jobs:
     - name: Ejecutar proyecto
       uses: devcontainers/ci@v0.3
       with:
-        runCmd: python src/main.py
+        runCmd: python src/run-all.py
 
     - name: Ejecutar pruebas unitarias
       uses: devcontainers/ci@v0.3
