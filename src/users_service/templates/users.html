@@ -1,0 +1,72 @@
+<!--
+============================================================
+Politécnica de Santa Rosa
+
+Materia: Arquitecturas de Software
+Profesor: Jesús Salvador López Ortega
+Grupo: ISW28
+Archivo: users.html
+Descripción: Frontend del microservicio.
+============================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Usuarios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .user-card {
+            background-color: #e9f5ff;
+            padding: 1rem;
+            border-radius: 6px;
+            margin-top: 1rem;
+        }
+        .link {
+            margin-bottom: 1rem;
+        }
+        .link a {
+            text-decoration: none;
+            background-color: #007BFF;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="link">
+            <a href="/users/create">Agregar Nuevo Usuario</a>
+        </div>
+        <h2>Usuarios</h2>
+
+        {% if users %}
+            {% for user in users %}
+                <div class="user-card">
+                    <p><strong>ID:</strong> {{ user.id }}</p>
+                    <p><strong>Nombre:</strong> {{ user.name }}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No hay usuarios registrados.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

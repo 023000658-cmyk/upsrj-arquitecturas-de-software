@@ -1,0 +1,77 @@
+<!--
+============================================================
+Politécnica de Santa Rosa
+
+Materia: Arquitecturas de Software
+Profesor: Jesús Salvador López Ortega
+Grupo: ISW28
+Archivo: home.html
+Descripción: Frontend del microservicio.
+============================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gateway Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            font-size: 1.1rem;
+            text-align: center;
+            color: #555;
+        }
+        .button-link {
+            display: block;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .button-link a {
+            text-decoration: none;
+            background-color: #007BFF;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .button-link a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido al Gateway de Microservicios</h1>
+        <p>Este gateway centraliza el acceso a los microservicios de <strong>Usuarios</strong> y <strong>Productos</strong>.</p>
+        <div class="button-link">
+            <a href="/all">Ver Usuarios y Productos</a>
+        </div>
+        <footer>
+            &copy; 2025 - Politecnica de Santa Rosa ISW: Arquitectura de Software
+        </footer>
+    </div>
+</body>
+</html>
