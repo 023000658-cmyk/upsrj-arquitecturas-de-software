@@ -1,11 +1,82 @@
 [
     {
         "id": 1,
-        "name": "Alice"
+        "name": "Alice",
+        "purchased_products": [
+            3,
+            3,
+            3,
+            3,
+            1,
+            2,
+            3,
+            1,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            1,
+            2,
+            5,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            1,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            3,
+            1,
+            3,
+            1,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+        ]
     },
     {
         "id": 2,
-        "name": "Bob"
+        "name": "Bob",
+        "purchased_products": [
+            2,
+            2,
+            2
+        ]
     },
     {
         "id": 3,
@@ -17,6 +88,378 @@
     },
     {
         "id": 5,
+        "name": "Carlos"
+    },
+    {
+        "id": 6,
+        "name": "Carlos"
+    },
+    {
+        "id": 7,
+        "name": "Carlos"
+    },
+    {
+        "id": 8,
+        "name": "Carlos"
+    },
+    {
+        "id": 9,
+        "name": "Carlos"
+    },
+    {
+        "id": 10,
+        "name": "Carlos"
+    },
+    {
+        "id": 11,
+        "name": "Carlos"
+    },
+    {
+        "id": 12,
+        "name": "Carlos"
+    },
+    {
+        "id": 13,
+        "name": "Carlos"
+    },
+    {
+        "id": 14,
+        "name": "Carlos"
+    },
+    {
+        "id": 15,
+        "name": "Carlos"
+    },
+    {
+        "id": 16,
+        "name": "Carlos"
+    },
+    {
+        "id": 17,
+        "name": "Carlos"
+    },
+    {
+        "id": 18,
+        "name": "Carlos"
+    },
+    {
+        "id": 19,
+        "name": "Carlos"
+    },
+    {
+        "id": 20,
+        "name": "Carlos"
+    },
+    {
+        "id": 21,
+        "name": "Carlos"
+    },
+    {
+        "id": 22,
+        "name": "Carlos"
+    },
+    {
+        "id": 23,
+        "name": "Carlos"
+    },
+    {
+        "id": 24,
+        "name": "Carlos"
+    },
+    {
+        "id": 25,
+        "name": "Carlos"
+    },
+    {
+        "id": 26,
+        "name": "Carlos"
+    },
+    {
+        "id": 27,
+        "name": "Carlos"
+    },
+    {
+        "id": 28,
+        "name": "Carlos"
+    },
+    {
+        "id": 29,
+        "name": "Carlos"
+    },
+    {
+        "id": 30,
+        "name": "Carlos"
+    },
+    {
+        "id": 31,
+        "name": "Carlos"
+    },
+    {
+        "id": 32,
+        "name": "Chisiya"
+    },
+    {
+        "id": 33,
+        "name": "Carlos"
+    },
+    {
+        "id": 34,
+        "name": "Carlos"
+    },
+    {
+        "id": 35,
+        "name": "Carlos"
+    },
+    {
+        "id": 36,
+        "name": "Carlos"
+    },
+    {
+        "id": 37,
+        "name": "Carlos"
+    },
+    {
+        "id": 38,
+        "name": "MARIA JUDITH"
+    },
+    {
+        "id": 39,
+        "name": "Carlos"
+    },
+    {
+        "id": 40,
+        "name": "Carlos"
+    },
+    {
+        "id": 41,
+        "name": "Carlos"
+    },
+    {
+        "id": 42,
+        "name": "Carlos"
+    },
+    {
+        "id": 43,
+        "name": "Carlos"
+    },
+    {
+        "id": 44,
+        "name": "Carlos"
+    },
+    {
+        "id": 45,
+        "name": "Carlos"
+    },
+    {
+        "id": 46,
+        "name": "Carlos"
+    },
+    {
+        "id": 47,
+        "name": "Carlos"
+    },
+    {
+        "id": 48,
+        "name": "Carlos"
+    },
+    {
+        "id": 49,
+        "name": "Carlos"
+    },
+    {
+        "id": 50,
+        "name": "Carlos"
+    },
+    {
+        "id": 51,
+        "name": "Carlos"
+    },
+    {
+        "id": 52,
+        "name": "Carlos"
+    },
+    {
+        "id": 53,
+        "name": "Carlos"
+    },
+    {
+        "id": 54,
+        "name": "Carlos"
+    },
+    {
+        "id": 55,
+        "name": "Carlos"
+    },
+    {
+        "id": 56,
+        "name": "Carlos"
+    },
+    {
+        "id": 57,
+        "name": "Carlos"
+    },
+    {
+        "id": 58,
+        "name": "Carlos"
+    },
+    {
+        "id": 59,
+        "name": "Carlos"
+    },
+    {
+        "id": 60,
+        "name": "Carlos"
+    },
+    {
+        "id": 61,
+        "name": "Carlos"
+    },
+    {
+        "id": 62,
+        "name": "Carlos"
+    },
+    {
+        "id": 63,
+        "name": "Carlos"
+    },
+    {
+        "id": 64,
+        "name": "Carlos"
+    },
+    {
+        "id": 65,
+        "name": "Carlos"
+    },
+    {
+        "id": 66,
+        "name": "Carlos"
+    },
+    {
+        "id": 67,
+        "name": "Carlos"
+    },
+    {
+        "id": 68,
+        "name": "Carlos"
+    },
+    {
+        "id": 69,
+        "name": "Carlos"
+    },
+    {
+        "id": 70,
+        "name": "Carlos"
+    },
+    {
+        "id": 71,
+        "name": "Carlos"
+    },
+    {
+        "id": 72,
+        "name": "Carlos"
+    },
+    {
+        "id": 73,
+        "name": "Carlos"
+    },
+    {
+        "id": 74,
+        "name": "Carlos"
+    },
+    {
+        "id": 75,
+        "name": "Carlos"
+    },
+    {
+        "id": 76,
+        "name": "Carlos"
+    },
+    {
+        "id": 77,
+        "name": "Carlos"
+    },
+    {
+        "id": 78,
+        "name": "Carlos"
+    },
+    {
+        "id": 79,
+        "name": "Carlos"
+    },
+    {
+        "id": 80,
+        "name": "Carlos"
+    },
+    {
+        "id": 81,
+        "name": "Carlos"
+    },
+    {
+        "id": 82,
+        "name": "Carlos"
+    },
+    {
+        "id": 83,
+        "name": "Carlos"
+    },
+    {
+        "id": 84,
+        "name": "Carlos"
+    },
+    {
+        "id": 85,
+        "name": "Carlos"
+    },
+    {
+        "id": 86,
+        "name": "Carlos"
+    },
+    {
+        "id": 87,
+        "name": "Carlos"
+    },
+    {
+        "id": 88,
+        "name": "Carlos"
+    },
+    {
+        "id": 89,
+        "name": "Carlos"
+    },
+    {
+        "id": 90,
+        "name": "Carlos"
+    },
+    {
+        "id": 91,
+        "name": "Carlos"
+    },
+    {
+        "id": 92,
+        "name": "Carlos"
+    },
+    {
+        "id": 93,
+        "name": "Carlos"
+    },
+    {
+        "id": 94,
+        "name": "Carlos"
+    },
+    {
+        "id": 95,
+        "name": "Carlos"
+    },
+    {
+        "id": 96,
+        "name": "Carlos"
+    },
+    {
+        "id": 97,
+        "name": "Carlos"
+    },
+    {
+        "id": 98,
         "name": "Carlos"
     }
 ]

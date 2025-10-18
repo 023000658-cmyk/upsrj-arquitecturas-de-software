@@ -1,0 +1,82 @@
+<!--
+============================================================
+Politécnica de Santa Rosa
+
+Materia: Arquitecturas de Software
+Profesor: Jesús Salvador López Ortega
+Grupo: ISW28
+Archivo: create_purchase.html
+Descripción: Formulario para crear una nueva compra.
+============================================================
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Compra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            margin-top: 1.5rem;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .link {
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .link a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Crear Nueva Compra</h2>
+        <form action="/purchases" method="POST">
+            <input type="number" name="user_id" placeholder="ID del usuario" required>
+            <input type="number" name="product_id" placeholder="ID del producto" required>
+            <button type="submit">Guardar Compra</button>
+        </form>
+        <div class="link">
+            <a href="/purchases">Ver lista de compras</a>
+        </div>
+    </div>
+</body>
+</html>

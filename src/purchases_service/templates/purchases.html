@@ -1,0 +1,79 @@
+<!--
+============================================================
+Politécnica de Santa Rosa
+
+Materia: Arquitecturas de Software
+Profesor: Jesús Salvador López Ortega
+Grupo: ISW28
+Archivo: purchases.html
+Descripción: Lista de compras registradas.
+============================================================
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Compras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+        .purchase-card {
+            background-color: #e9f5ff;
+            padding: 1rem;
+            border-radius: 6px;
+            margin-top: 1rem;
+        }
+        .link {
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .link a {
+            text-decoration: none;
+            background-color: #007BFF;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        .link a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="link">
+            <a href="/purchases/create">Agregar Nueva Compra</a>
+        </div>
+        <h2>Compras</h2>
+
+        {% if purchases %}
+            {% for purchase in purchases %}
+                <div class="purchase-card">
+                    <p><strong>ID:</strong> {{ purchase.id }}</p>
+                    <p><strong>ID Usuario:</strong> {{ purchase.user_id }}</p>
+                    <p><strong>ID Producto:</strong> {{ purchase.product_id }}</p>
+                    <p><strong>Fecha:</strong> {{ purchase.timestamp }}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No hay compras registradas.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

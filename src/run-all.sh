@@ -21,8 +21,8 @@ declare -A SERVICES=(
   ["Users API"]="src/users_service/api.py" 
   ["Products Service"]="src/products_service/app.py"
   ["Products API"]="src/products_service/api.py"
-  #["Purchases Service"]="src/purchases_service/app.py"
-  #["Purchases API"]="src/purchases_service/api.py"
+  ["Purchases Service"]="src/purchases_service/app.py"
+  ["Purchases API"]="src/purchases_service/api.py"
   ["Gateway Web"]="src/gateway/app.py"
   ["Gateway API"]="src/gateway/api.py"
 )

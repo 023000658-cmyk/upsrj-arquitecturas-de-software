@@ -9,7 +9,7 @@
 # ============================================================
 import sys, os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from flask import Flask, request, render_template, redirect, url_for
+from flask import Flask, request, render_template, redirect, url_for, jsonify, jsonify
 from common.utils import load_item, save_item, get_host
 from common.vars import USERS_FILE, USER_SERVICE_URL
 
@@ -38,5 +38,21 @@ def create_user():
 
     return redirect(url_for('get_users'))
 
+#------------------------------------------------------------------------------------
+@app.route('/users/<int:user_id>', methods=['GET'])
+def get_user_by_id(user_id):
+    """Obtiene un usuario por su ID"""
+    users = load_item(USERS_FILE)
+    user = next((u for u in users if u['id'] == user_id), None)
+    
+    if user is None:
+        return jsonify({"error": "Usuario no encontrado"}), 404
+
+    return jsonify(user), 200
+#------------------------------------------------------------------------------------
+
 if __name__ == '__main__':
     app.run(port=get_host(USER_SERVICE_URL))
+
+    
+    
